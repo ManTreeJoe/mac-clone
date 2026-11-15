@@ -1,0 +1,94 @@
+{
+  "chatgpt": {
+    "token": "chatgpt",
+    "name": [
+      "ChatGPT"
+    ],
+    "homepage": "https://chatgpt.com/",
+    "version": "26.1111.21308"
+  },
+  "cleanshot": {
+    "token": "cleanshot",
+    "name": [
+      "CleanShot"
+    ],
+    "homepage": "https://cleanshot.com/",
+    "version": "5.0.2"
+  },
+  "displaylink": {
+    "token": "displaylink",
+    "name": [
+      "DisplayLink USB Graphics Software"
+    ],
+    "homepage": "https://www.synaptics.com/products/displaylink-graphics",
+    "version": "17.1,2026-11"
+  },
+  "ghostty": {
+    "token": "ghostty",
+    "name": [
+      "Ghostty"
+    ],
+    "homepage": "https://ghostty.org/",
+    "version": "1.4.0"
+  },
+  "jump-desktop": {
+    "token": "jump-desktop",
+    "name": [
+      "Jump Desktop"
+    ],
+    "homepage": "https://jumpdesktop.com/#jdmac",
+    "version": "10.15.46"
+  },
+  "parsec": {
+    "token": "parsec",
+    "name": [
+      "Parsec"
+    ],
+    "homepage": "https://parsec.app/",
+    "version": "150-105c"
+  },
+  "presentify": {
+    "token": "presentify",
+    "name": [
+      "Presentify"
+    ],
+    "homepage": "https://presentifyapp.com/",
+    "version": "8.2.1"
+  },
+  "raycast": {
+    "token": "raycast",
+    "name": [
+      "Raycast"
+    ],
+    "homepage": "https://raycast.com/",
+    "version": "2.12.1.0"
+  },
+  "tailscale-app": {
+    "token": "tailscale-app",
+    "name": [
+      "Tailscale"
+    ],
+    "homepage": "https://tailscale.com/",
+    "version": "1.104.7"
+  },
+  "codex": {
+    "token": "codex",
+    "name": [
+      "Codex"
+    ],
+    "homepage": "https://github.com/openai/codex",
+    "version": "0.169.0"
+  },
+  "blip": {
+    "token": "blip",
+    "name": [
+      "blip"
+    ],
+    "homepage": "https://blip.net/",
+    "version": "1.2.8,20261029214736"
+  },
+  "magnet": null,
+  "notchy": null,
+  "ugreen": null,
+  "isocast": null
+}

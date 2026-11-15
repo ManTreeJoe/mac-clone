@@ -1,0 +1,139 @@
+{
+  "checked_items": [
+    {
+      "section": "Suggested basics to consider first",
+      "item": "Homebrew package manager"
+    },
+    {
+      "section": "Suggested basics to consider first",
+      "item": "Xcode command-line tools (full Xcode only if needed)"
+    },
+    {
+      "section": "Suggested basics to consider first",
+      "item": "Git and GitHub CLI, then sign in again"
+    },
+    {
+      "section": "Suggested basics to consider first",
+      "item": "Terminal, shell preferences, and preferred font"
+    },
+    {
+      "section": "Suggested basics to consider first",
+      "item": "Editor and selected extensions"
+    },
+    {
+      "section": "Suggested basics to consider first",
+      "item": "Browser bookmarks and password-manager/iCloud sync"
+    },
+    {
+      "section": "Suggested basics to consider first",
+      "item": "Backup and FileVault setup"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Ardia** \u2014 `/Applications/Ardia.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**ArtCraft Launcher** \u2014 `/Applications/ArtCraft Launcher.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Blip** \u2014 `/Applications/Blip.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Card Hopper** \u2014 `/Applications/Card Hopper.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**ChatGPT** \u2014 `/Applications/ChatGPT.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**CleanShot X** \u2014 `/Applications/CleanShot X.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**DisplayLink Manager** \u2014 `/Applications/DisplayLink Manager.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Ghostty** \u2014 `/Applications/Ghostty.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Grok Bot** \u2014 `/Applications/Grok Bot.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Isocast** \u2014 `/Applications/Isocast.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Jump Desktop** \u2014 `/Applications/Jump Desktop.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Magnet** \u2014 `/Applications/Magnet.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Notchy** \u2014 `/Applications/Notchy.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Parsec** \u2014 `/Applications/Parsec.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Presentify** \u2014 `/Applications/Presentify.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Raycast** \u2014 `/Applications/Raycast.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**Tailscale** \u2014 `/Applications/Tailscale.app`"
+    },
+    {
+      "section": "Applications found",
+      "item": "**UGREEN NAS** \u2014 `/Applications/UGREEN NAS.app`"
+    },
+    {
+      "section": "Homebrew casks",
+      "item": "`codex` \u2014 Codex"
+    },
+    {
+      "section": "Homebrew casks",
+      "item": "`ghostty` \u2014 Ghostty"
+    }
+  ],
+  "formulae": [
+    "gh",
+    "git"
+  ],
+  "casks": [
+    "blip",
+    "chatgpt",
+    "cleanshot",
+    "codex",
+    "displaylink",
+    "ghostty",
+    "jump-desktop",
+    "parsec",
+    "presentify",
+    "raycast",
+    "tailscale-app"
+  ],
+  "manual_apps": [
+    "Ardia",
+    "ArtCraft Launcher",
+    "Card Hopper",
+    "Grok Bot",
+    "Isocast",
+    "Magnet",
+    "Notchy",
+    "UGREEN NAS"
+  ]
+}

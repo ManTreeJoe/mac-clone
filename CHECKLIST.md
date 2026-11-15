@@ -1,17 +1,17 @@
 # Choose what goes on the next Mac
 
-Scanned November 14, 2026. Check the items you want. Everything starts unchecked. This is a selection document; checking a box does not install or copy anything.
+Scanned November 14, 2026. Checked items are the selected new-Mac setup. The generated Brewfile and manual plan record these choices; checking a box alone does not install or copy anything.
 
 ## Suggested basics to consider first
 
-- [ ] Homebrew package manager
-- [ ] Xcode command-line tools (full Xcode only if needed)
-- [ ] Git and GitHub CLI, then sign in again
-- [ ] Terminal, shell preferences, and preferred font
-- [ ] Editor and selected extensions
+- [x] Homebrew package manager
+- [x] Xcode command-line tools (full Xcode only if needed)
+- [x] Git and GitHub CLI, then sign in again
+- [x] Terminal, shell preferences, and preferred font
+- [x] Editor and selected extensions
 - [ ] Window management and keyboard remapping
-- [ ] Browser bookmarks and password-manager/iCloud sync
-- [ ] Backup and FileVault setup
+- [x] Browser bookmarks and password-manager/iCloud sync
+- [x] Backup and FileVault setup
 
 ## Applications found
 
@@ -22,17 +22,17 @@ Some entries are helpers or uninstallers. Keep only the parent apps you actually
 - [ ] **Affinity Designer 2** — `/Applications/Affinity Designer 2.app`
 - [ ] **Affinity Photo 2** — `/Applications/Affinity Photo 2.app`
 - [ ] **AppCleaner** — `/Applications/AppCleaner.app`
-- [ ] **Ardia** — `/Applications/Ardia.app`
-- [ ] **ArtCraft Launcher** — `/Applications/ArtCraft Launcher.app`
+- [x] **Ardia** — `/Applications/Ardia.app`
+- [x] **ArtCraft Launcher** — `/Applications/ArtCraft Launcher.app`
 - [ ] **BambuStudio** — `/Applications/BambuStudio.app`
 - [ ] **Blackmagic Proxy Generator** — `/Applications/Blackmagic Proxy Generator.app`
 - [ ] **Blackmagic RAW Player** — `/Applications/Blackmagic RAW/Blackmagic RAW Player.app`
 - [ ] **Blackmagic RAW Speed Test** — `/Applications/Blackmagic RAW/Blackmagic RAW Speed Test.app`
-- [ ] **Blip** — `/Applications/Blip.app`
-- [ ] **Card Hopper** — `/Applications/Card Hopper.app`
-- [ ] **ChatGPT** — `/Applications/ChatGPT.app`
+- [x] **Blip** — `/Applications/Blip.app`
+- [x] **Card Hopper** — `/Applications/Card Hopper.app`
+- [x] **ChatGPT** — `/Applications/ChatGPT.app`
 - [ ] **Claude** — `/Applications/Claude.app`
-- [ ] **CleanShot X** — `/Applications/CleanShot X.app`
+- [x] **CleanShot X** — `/Applications/CleanShot X.app`
 - [ ] **DaVinci Control Panels Setup** — `/Applications/DaVinci Resolve/DaVinci Control Panels Setup.app`
 - [ ] **DaVinci Remote Monitor** — `/Applications/DaVinci Resolve/DaVinci Remote Monitor.app`
 - [ ] **DaVinci Resolve** — `/Applications/DaVinci Resolve/DaVinci Resolve.app`
@@ -41,37 +41,37 @@ Some entries are helpers or uninstallers. Keep only the parent apps you actually
 - [ ] **Darkroom** — `/Applications/Darkroom.app`
 - [ ] **DeskPad** — `/Applications/DeskPad.app`
 - [ ] **Discord** — `/Applications/Discord.app`
-- [ ] **DisplayLink Manager** — `/Applications/DisplayLink Manager.app`
+- [x] **DisplayLink Manager** — `/Applications/DisplayLink Manager.app`
 - [ ] **Elgato Stream Deck** — `/Applications/Elgato Stream Deck.app`
 - [ ] **GarageBand** — `/Applications/GarageBand.app`
 - [ ] **Garmin Express** — `/Applications/Garmin Express.app`
-- [ ] **Ghostty** — `/Applications/Ghostty.app`
-- [ ] **Grok Bot** — `/Applications/Grok Bot.app`
+- [x] **Ghostty** — `/Applications/Ghostty.app`
+- [x] **Grok Bot** — `/Applications/Grok Bot.app`
 - [ ] **Imaging Edge Desktop** — `/Applications/Imaging Edge Desktop.app`
-- [ ] **Isocast** — `/Applications/Isocast.app`
-- [ ] **Jump Desktop** — `/Applications/Jump Desktop.app`
+- [x] **Isocast** — `/Applications/Isocast.app`
+- [x] **Jump Desktop** — `/Applications/Jump Desktop.app`
 - [ ] **Karabiner-Elements** — `/Applications/Karabiner-Elements.app`
 - [ ] **Karabiner-EventViewer** — `/Applications/Karabiner-EventViewer.app`
 - [ ] **LightCraft** — `/Applications/LightCraft.app`
 - [ ] **LocalDevVPN** — `/Applications/LocalDevVPN.app`
 - [ ] **Logos** — `/Applications/Logos.app`
-- [ ] **Magnet** — `/Applications/Magnet.app`
+- [x] **Magnet** — `/Applications/Magnet.app`
 - [ ] **NordVPN** — `/Applications/NordVPN.app`
 - [ ] **Notability** — `/Applications/Notability.app`
-- [ ] **Notchy** — `/Applications/Notchy.app`
+- [x] **Notchy** — `/Applications/Notchy.app`
 - [ ] **Numbers** — `/Applications/Numbers.app`
 - [ ] **OBS** — `/Applications/OBS.app`
 - [ ] **Pages** — `/Applications/Pages.app`
 - [ ] **Parallels Desktop** — `/Applications/Parallels Desktop.app`
 - [ ] **Parallels Toolbox** — `/Applications/Parallels Toolbox.app`
-- [ ] **Parsec** — `/Applications/Parsec.app`
-- [ ] **Presentify** — `/Applications/Presentify.app`
+- [x] **Parsec** — `/Applications/Parsec.app`
+- [x] **Presentify** — `/Applications/Presentify.app`
 - [ ] **IDLE** — `/Applications/Python 3.12/IDLE.app`
 - [ ] **Python Launcher** — `/Applications/Python 3.12/Python Launcher.app`
 - [ ] **IDLE** — `/Applications/Python 3.13/IDLE.app`
 - [ ] **Python Launcher** — `/Applications/Python 3.13/Python Launcher.app`
 - [ ] **Raspberry Pi Imager** — `/Applications/Raspberry Pi Imager.app`
-- [ ] **Raycast** — `/Applications/Raycast.app`
+- [x] **Raycast** — `/Applications/Raycast.app`
 - [ ] **Resilio Sync** — `/Applications/Resilio Sync.app`
 - [ ] **RetroArch** — `/Applications/RetroArch.app`
 - [ ] **Safari** — `/Applications/Safari.app`
@@ -81,9 +81,9 @@ Some entries are helpers or uninstallers. Keep only the parent apps you actually
 - [ ] **Stats** — `/Applications/Stats.app`
 - [ ] **Steam Link** — `/Applications/Steam Link.app`
 - [ ] **TAMRON Lens Utility** — `/Applications/TAMRON Lens Utility.app`
-- [ ] **Tailscale** — `/Applications/Tailscale.app`
+- [x] **Tailscale** — `/Applications/Tailscale.app`
 - [ ] **ToDoBar** — `/Applications/ToDoBar.app`
-- [ ] **UGREEN NAS** — `/Applications/UGREEN NAS.app`
+- [x] **UGREEN NAS** — `/Applications/UGREEN NAS.app`
 - [ ] **UniFi** — `/Applications/UniFi.app`
 - [ ] **Feedback Assistant** — `/Applications/Utilities/Feedback Assistant.app`
 - [ ] **Logi Options+ Driver Installer** — `/Applications/Utilities/Logi Options+ Driver Installer.bundle/Logi Options+ Driver Installer.app`
@@ -111,10 +111,10 @@ Exact installed package identifiers, including CLI tools distributed as casks.
 - [ ] `amethyst` — Amethyst
 - [ ] `claude` — Claude
 - [ ] `claude-code` — Claude Code
-- [ ] `codex` — Codex
+- [x] `codex` — Codex
 - [ ] `deskpad` — DeskPad
 - [ ] `font-jetbrains-mono-nerd-font` — JetBrainsMono Nerd Font families (JetBrains Mono)
-- [ ] `ghostty` — Ghostty
+- [x] `ghostty` — Ghostty
 - [ ] `karabiner-elements` — Karabiner Elements
 - [ ] `stats` — Stats
 - [ ] `xquartz` — XQuartz
