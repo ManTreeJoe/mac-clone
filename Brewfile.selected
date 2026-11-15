@@ -1,0 +1,8 @@
+# Add only the packages you choose in CHECKLIST.md.
+# No packages are enabled yet.
+# Formula example:
+# brew "git"
+# Cask example:
+# cask "ghostty"
+# Font example:
+# cask "font-jetbrains-mono-nerd-font"

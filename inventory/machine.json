@@ -1,0 +1,1406 @@
+{
+  "scanned_at": "2026-11-14T17:38:16.574213-08:00",
+  "macos": "26.5.1",
+  "architecture": "arm64",
+  "applications": [
+    "/Applications/.Karabiner-VirtualHIDDevice-Manager.app",
+    "/Applications/AeroSpace.app",
+    "/Applications/Affinity Designer 2.app",
+    "/Applications/Affinity Photo 2.app",
+    "/Applications/AppCleaner.app",
+    "/Applications/Ardia.app",
+    "/Applications/ArtCraft Launcher.app",
+    "/Applications/BambuStudio.app",
+    "/Applications/Blackmagic Proxy Generator.app",
+    "/Applications/Blackmagic RAW/Blackmagic RAW Player.app",
+    "/Applications/Blackmagic RAW/Blackmagic RAW Speed Test.app",
+    "/Applications/Blip.app",
+    "/Applications/Card Hopper.app",
+    "/Applications/ChatGPT.app",
+    "/Applications/Claude.app",
+    "/Applications/CleanShot X.app",
+    "/Applications/DaVinci Resolve/DaVinci Control Panels Setup.app",
+    "/Applications/DaVinci Resolve/DaVinci Remote Monitor.app",
+    "/Applications/DaVinci Resolve/DaVinci Resolve.app",
+    "/Applications/DaVinci Resolve/Fairlight Studio Utility.app",
+    "/Applications/DaVinci Resolve/Uninstall Resolve.app",
+    "/Applications/Darkroom.app",
+    "/Applications/DeskPad.app",
+    "/Applications/Discord.app",
+    "/Applications/DisplayLink Manager.app",
+    "/Applications/Elgato Stream Deck.app",
+    "/Applications/GarageBand.app",
+    "/Applications/Garmin Express.app",
+    "/Applications/Ghostty.app",
+    "/Applications/Grok Bot.app",
+    "/Applications/Imaging Edge Desktop.app",
+    "/Applications/Isocast.app",
+    "/Applications/Jump Desktop.app",
+    "/Applications/Karabiner-Elements.app",
+    "/Applications/Karabiner-EventViewer.app",
+    "/Applications/LightCraft.app",
+    "/Applications/LocalDevVPN.app",
+    "/Applications/Logos.app",
+    "/Applications/Magnet.app",
+    "/Applications/NordVPN.app",
+    "/Applications/Notability.app",
+    "/Applications/Notchy.app",
+    "/Applications/Numbers.app",
+    "/Applications/OBS.app",
+    "/Applications/Pages.app",
+    "/Applications/Parallels Desktop.app",
+    "/Applications/Parallels Toolbox.app",
+    "/Applications/Parsec.app",
+    "/Applications/Presentify.app",
+    "/Applications/Python 3.12/IDLE.app",
+    "/Applications/Python 3.12/Python Launcher.app",
+    "/Applications/Python 3.13/IDLE.app",
+    "/Applications/Python 3.13/Python Launcher.app",
+    "/Applications/Raspberry Pi Imager.app",
+    "/Applications/Raycast.app",
+    "/Applications/Resilio Sync.app",
+    "/Applications/RetroArch.app",
+    "/Applications/Safari.app",
+    "/Applications/ScreenZen.app",
+    "/Applications/Silent Mode.app",
+    "/Applications/Spotify.app",
+    "/Applications/Stats.app",
+    "/Applications/Steam Link.app",
+    "/Applications/TAMRON Lens Utility.app",
+    "/Applications/Tailscale.app",
+    "/Applications/ToDoBar.app",
+    "/Applications/UGREEN NAS.app",
+    "/Applications/UniFi.app",
+    "/Applications/Utilities/Feedback Assistant.app",
+    "/Applications/Utilities/Logi Options+ Driver Installer.bundle/Logi Options+ Driver Installer.app",
+    "/Applications/Utilities/LogiPluginService.app",
+    "/Applications/Utilities/Uninstall Victory Shield.app",
+    "/Applications/Utilities/XQuartz.app",
+    "/Applications/Victory Shield.app",
+    "/Applications/Visual Studio Code.app",
+    "/Applications/Xcode.app",
+    "/Applications/Zen.app",
+    "/Applications/bible-rs.app",
+    "/Applications/iloader.app",
+    "/Applications/logioptionsplus.app",
+    "~/Applications/Autodesk Fusion Service Utility.app",
+    "~/Applications/Autodesk Fusion.app",
+    "~/Applications/Claude Code URL Handler.app",
+    "~/Applications/Filetub.app",
+    "~/Applications/Remove Autodesk Fusion.app"
+  ],
+  "homebrew_formulae": [
+    {
+      "name": "abseil",
+      "full_name": "abseil",
+      "installed_on_request": null
+    },
+    {
+      "name": "ada-url",
+      "full_name": "ada-url",
+      "installed_on_request": null
+    },
+    {
+      "name": "aom",
+      "full_name": "aom",
+      "installed_on_request": null
+    },
+    {
+      "name": "aribb24",
+      "full_name": "aribb24",
+      "installed_on_request": null
+    },
+    {
+      "name": "autoconf",
+      "full_name": "autoconf",
+      "installed_on_request": null
+    },
+    {
+      "name": "brotli",
+      "full_name": "brotli",
+      "installed_on_request": null
+    },
+    {
+      "name": "btop",
+      "full_name": "btop",
+      "installed_on_request": null
+    },
+    {
+      "name": "bun",
+      "full_name": "bun",
+      "installed_on_request": null
+    },
+    {
+      "name": "c-ares",
+      "full_name": "c-ares",
+      "installed_on_request": null
+    },
+    {
+      "name": "ca-certificates",
+      "full_name": "ca-certificates",
+      "installed_on_request": null
+    },
+    {
+      "name": "cairo",
+      "full_name": "cairo",
+      "installed_on_request": null
+    },
+    {
+      "name": "cask",
+      "full_name": "cask",
+      "installed_on_request": null
+    },
+    {
+      "name": "certifi",
+      "full_name": "certifi",
+      "installed_on_request": null
+    },
+    {
+      "name": "cffi",
+      "full_name": "cffi",
+      "installed_on_request": null
+    },
+    {
+      "name": "cjson",
+      "full_name": "cjson",
+      "installed_on_request": null
+    },
+    {
+      "name": "cloudflared",
+      "full_name": "cloudflared",
+      "installed_on_request": null
+    },
+    {
+      "name": "cocoapods",
+      "full_name": "cocoapods",
+      "installed_on_request": null
+    },
+    {
+      "name": "coreutils",
+      "full_name": "coreutils",
+      "installed_on_request": null
+    },
+    {
+      "name": "dav1d",
+      "full_name": "dav1d",
+      "installed_on_request": null
+    },
+    {
+      "name": "deno",
+      "full_name": "deno",
+      "installed_on_request": null
+    },
+    {
+      "name": "duti",
+      "full_name": "duti",
+      "installed_on_request": null
+    },
+    {
+      "name": "emacs",
+      "full_name": "emacs",
+      "installed_on_request": null
+    },
+    {
+      "name": "fd",
+      "full_name": "fd",
+      "installed_on_request": null
+    },
+    {
+      "name": "ffmpeg",
+      "full_name": "ffmpeg",
+      "installed_on_request": null
+    },
+    {
+      "name": "flac",
+      "full_name": "flac",
+      "installed_on_request": null
+    },
+    {
+      "name": "fmt",
+      "full_name": "fmt",
+      "installed_on_request": null
+    },
+    {
+      "name": "fontconfig",
+      "full_name": "fontconfig",
+      "installed_on_request": null
+    },
+    {
+      "name": "freetype",
+      "full_name": "freetype",
+      "installed_on_request": null
+    },
+    {
+      "name": "frei0r",
+      "full_name": "frei0r",
+      "installed_on_request": null
+    },
+    {
+      "name": "fribidi",
+      "full_name": "fribidi",
+      "installed_on_request": null
+    },
+    {
+      "name": "fzf",
+      "full_name": "fzf",
+      "installed_on_request": null
+    },
+    {
+      "name": "gcc",
+      "full_name": "gcc",
+      "installed_on_request": null
+    },
+    {
+      "name": "gdbm",
+      "full_name": "gdbm",
+      "installed_on_request": null
+    },
+    {
+      "name": "gettext",
+      "full_name": "gettext",
+      "installed_on_request": null
+    },
+    {
+      "name": "gh",
+      "full_name": "gh",
+      "installed_on_request": null
+    },
+    {
+      "name": "giflib",
+      "full_name": "giflib",
+      "installed_on_request": null
+    },
+    {
+      "name": "git",
+      "full_name": "git",
+      "installed_on_request": null
+    },
+    {
+      "name": "glib",
+      "full_name": "glib",
+      "installed_on_request": null
+    },
+    {
+      "name": "gmp",
+      "full_name": "gmp",
+      "installed_on_request": null
+    },
+    {
+      "name": "gnutls",
+      "full_name": "gnutls",
+      "installed_on_request": null
+    },
+    {
+      "name": "graphite2",
+      "full_name": "graphite2",
+      "installed_on_request": null
+    },
+    {
+      "name": "harfbuzz",
+      "full_name": "harfbuzz",
+      "installed_on_request": null
+    },
+    {
+      "name": "hdrhistogram_c",
+      "full_name": "hdrhistogram_c",
+      "installed_on_request": null
+    },
+    {
+      "name": "highway",
+      "full_name": "highway",
+      "installed_on_request": null
+    },
+    {
+      "name": "icu4c@77",
+      "full_name": "icu4c@77",
+      "installed_on_request": null
+    },
+    {
+      "name": "icu4c@78",
+      "full_name": "icu4c@78",
+      "installed_on_request": null
+    },
+    {
+      "name": "imath",
+      "full_name": "imath",
+      "installed_on_request": null
+    },
+    {
+      "name": "isl",
+      "full_name": "isl",
+      "installed_on_request": null
+    },
+    {
+      "name": "jemalloc",
+      "full_name": "jemalloc",
+      "installed_on_request": null
+    },
+    {
+      "name": "jpeg-turbo",
+      "full_name": "jpeg-turbo",
+      "installed_on_request": null
+    },
+    {
+      "name": "jpeg-xl",
+      "full_name": "jpeg-xl",
+      "installed_on_request": null
+    },
+    {
+      "name": "json-c",
+      "full_name": "json-c",
+      "installed_on_request": null
+    },
+    {
+      "name": "lame",
+      "full_name": "lame",
+      "installed_on_request": null
+    },
+    {
+      "name": "lazygit",
+      "full_name": "lazygit",
+      "installed_on_request": null
+    },
+    {
+      "name": "leptonica",
+      "full_name": "leptonica",
+      "installed_on_request": null
+    },
+    {
+      "name": "libarchive",
+      "full_name": "libarchive",
+      "installed_on_request": null
+    },
+    {
+      "name": "libass",
+      "full_name": "libass",
+      "installed_on_request": null
+    },
+    {
+      "name": "libb2",
+      "full_name": "libb2",
+      "installed_on_request": null
+    },
+    {
+      "name": "libbluray",
+      "full_name": "libbluray",
+      "installed_on_request": null
+    },
+    {
+      "name": "libdatrie",
+      "full_name": "libdatrie",
+      "installed_on_request": null
+    },
+    {
+      "name": "libdeflate",
+      "full_name": "libdeflate",
+      "installed_on_request": null
+    },
+    {
+      "name": "libevent",
+      "full_name": "libevent",
+      "installed_on_request": null
+    },
+    {
+      "name": "libffi",
+      "full_name": "libffi",
+      "installed_on_request": null
+    },
+    {
+      "name": "libidn2",
+      "full_name": "libidn2",
+      "installed_on_request": null
+    },
+    {
+      "name": "libmicrohttpd",
+      "full_name": "libmicrohttpd",
+      "installed_on_request": null
+    },
+    {
+      "name": "libmpc",
+      "full_name": "libmpc",
+      "installed_on_request": null
+    },
+    {
+      "name": "libnghttp2",
+      "full_name": "libnghttp2",
+      "installed_on_request": null
+    },
+    {
+      "name": "libogg",
+      "full_name": "libogg",
+      "installed_on_request": null
+    },
+    {
+      "name": "libomp",
+      "full_name": "libomp",
+      "installed_on_request": null
+    },
+    {
+      "name": "libpng",
+      "full_name": "libpng",
+      "installed_on_request": null
+    },
+    {
+      "name": "librist",
+      "full_name": "librist",
+      "installed_on_request": null
+    },
+    {
+      "name": "libsamplerate",
+      "full_name": "libsamplerate",
+      "installed_on_request": null
+    },
+    {
+      "name": "libsndfile",
+      "full_name": "libsndfile",
+      "installed_on_request": null
+    },
+    {
+      "name": "libsodium",
+      "full_name": "libsodium",
+      "installed_on_request": null
+    },
+    {
+      "name": "libsoxr",
+      "full_name": "libsoxr",
+      "installed_on_request": null
+    },
+    {
+      "name": "libssh",
+      "full_name": "libssh",
+      "installed_on_request": null
+    },
+    {
+      "name": "libtasn1",
+      "full_name": "libtasn1",
+      "installed_on_request": null
+    },
+    {
+      "name": "libthai",
+      "full_name": "libthai",
+      "installed_on_request": null
+    },
+    {
+      "name": "libtiff",
+      "full_name": "libtiff",
+      "installed_on_request": null
+    },
+    {
+      "name": "libtommath",
+      "full_name": "libtommath",
+      "installed_on_request": null
+    },
+    {
+      "name": "libudfread",
+      "full_name": "libudfread",
+      "installed_on_request": null
+    },
+    {
+      "name": "libunibreak",
+      "full_name": "libunibreak",
+      "installed_on_request": null
+    },
+    {
+      "name": "libunistring",
+      "full_name": "libunistring",
+      "installed_on_request": null
+    },
+    {
+      "name": "libusb",
+      "full_name": "libusb",
+      "installed_on_request": null
+    },
+    {
+      "name": "libuv",
+      "full_name": "libuv",
+      "installed_on_request": null
+    },
+    {
+      "name": "libvidstab",
+      "full_name": "libvidstab",
+      "installed_on_request": null
+    },
+    {
+      "name": "libvmaf",
+      "full_name": "libvmaf",
+      "installed_on_request": null
+    },
+    {
+      "name": "libvorbis",
+      "full_name": "libvorbis",
+      "installed_on_request": null
+    },
+    {
+      "name": "libvpx",
+      "full_name": "libvpx",
+      "installed_on_request": null
+    },
+    {
+      "name": "libx11",
+      "full_name": "libx11",
+      "installed_on_request": null
+    },
+    {
+      "name": "libxau",
+      "full_name": "libxau",
+      "installed_on_request": null
+    },
+    {
+      "name": "libxcb",
+      "full_name": "libxcb",
+      "installed_on_request": null
+    },
+    {
+      "name": "libxdmcp",
+      "full_name": "libxdmcp",
+      "installed_on_request": null
+    },
+    {
+      "name": "libxext",
+      "full_name": "libxext",
+      "installed_on_request": null
+    },
+    {
+      "name": "libxrender",
+      "full_name": "libxrender",
+      "installed_on_request": null
+    },
+    {
+      "name": "libyaml",
+      "full_name": "libyaml",
+      "installed_on_request": null
+    },
+    {
+      "name": "little-cms2",
+      "full_name": "little-cms2",
+      "installed_on_request": null
+    },
+    {
+      "name": "llhttp",
+      "full_name": "llhttp",
+      "installed_on_request": null
+    },
+    {
+      "name": "lpeg",
+      "full_name": "lpeg",
+      "installed_on_request": null
+    },
+    {
+      "name": "luajit",
+      "full_name": "luajit",
+      "installed_on_request": null
+    },
+    {
+      "name": "luv",
+      "full_name": "luv",
+      "installed_on_request": null
+    },
+    {
+      "name": "lz4",
+      "full_name": "lz4",
+      "installed_on_request": null
+    },
+    {
+      "name": "lzo",
+      "full_name": "lzo",
+      "installed_on_request": null
+    },
+    {
+      "name": "m4",
+      "full_name": "m4",
+      "installed_on_request": null
+    },
+    {
+      "name": "mbedtls",
+      "full_name": "mbedtls",
+      "installed_on_request": null
+    },
+    {
+      "name": "merve",
+      "full_name": "merve",
+      "installed_on_request": null
+    },
+    {
+      "name": "mpdecimal",
+      "full_name": "mpdecimal",
+      "installed_on_request": null
+    },
+    {
+      "name": "mpfr",
+      "full_name": "mpfr",
+      "installed_on_request": null
+    },
+    {
+      "name": "mpg123",
+      "full_name": "mpg123",
+      "installed_on_request": null
+    },
+    {
+      "name": "mysql",
+      "full_name": "mysql",
+      "installed_on_request": null
+    },
+    {
+      "name": "nbytes",
+      "full_name": "nbytes",
+      "installed_on_request": null
+    },
+    {
+      "name": "ncurses",
+      "full_name": "ncurses",
+      "installed_on_request": null
+    },
+    {
+      "name": "neovim",
+      "full_name": "neovim",
+      "installed_on_request": null
+    },
+    {
+      "name": "nettle",
+      "full_name": "nettle",
+      "installed_on_request": null
+    },
+    {
+      "name": "node",
+      "full_name": "node",
+      "installed_on_request": null
+    },
+    {
+      "name": "node@18",
+      "full_name": "node@18",
+      "installed_on_request": null
+    },
+    {
+      "name": "node@20",
+      "full_name": "node@20",
+      "installed_on_request": null
+    },
+    {
+      "name": "numpy",
+      "full_name": "numpy",
+      "installed_on_request": null
+    },
+    {
+      "name": "nvm",
+      "full_name": "nvm",
+      "installed_on_request": null
+    },
+    {
+      "name": "openblas",
+      "full_name": "openblas",
+      "installed_on_request": null
+    },
+    {
+      "name": "opencore-amr",
+      "full_name": "opencore-amr",
+      "installed_on_request": null
+    },
+    {
+      "name": "openexr",
+      "full_name": "openexr",
+      "installed_on_request": null
+    },
+    {
+      "name": "openjpeg",
+      "full_name": "openjpeg",
+      "installed_on_request": null
+    },
+    {
+      "name": "openjph",
+      "full_name": "openjph",
+      "installed_on_request": null
+    },
+    {
+      "name": "openssl@3",
+      "full_name": "openssl@3",
+      "installed_on_request": null
+    },
+    {
+      "name": "openssl@4",
+      "full_name": "openssl@4",
+      "installed_on_request": null
+    },
+    {
+      "name": "opus",
+      "full_name": "opus",
+      "installed_on_request": null
+    },
+    {
+      "name": "p11-kit",
+      "full_name": "p11-kit",
+      "installed_on_request": null
+    },
+    {
+      "name": "pandoc",
+      "full_name": "pandoc",
+      "installed_on_request": null
+    },
+    {
+      "name": "pango",
+      "full_name": "pango",
+      "installed_on_request": null
+    },
+    {
+      "name": "pcre2",
+      "full_name": "pcre2",
+      "installed_on_request": null
+    },
+    {
+      "name": "pixman",
+      "full_name": "pixman",
+      "installed_on_request": null
+    },
+    {
+      "name": "pkgconf",
+      "full_name": "pkgconf",
+      "installed_on_request": null
+    },
+    {
+      "name": "protobuf",
+      "full_name": "protobuf",
+      "installed_on_request": null
+    },
+    {
+      "name": "protobuf@29",
+      "full_name": "protobuf@29",
+      "installed_on_request": null
+    },
+    {
+      "name": "pycparser",
+      "full_name": "pycparser",
+      "installed_on_request": null
+    },
+    {
+      "name": "pyenv",
+      "full_name": "pyenv",
+      "installed_on_request": null
+    },
+    {
+      "name": "python-tk@3.13",
+      "full_name": "python-tk@3.13",
+      "installed_on_request": null
+    },
+    {
+      "name": "python@3.10",
+      "full_name": "python@3.10",
+      "installed_on_request": null
+    },
+    {
+      "name": "python@3.12",
+      "full_name": "python@3.12",
+      "installed_on_request": null
+    },
+    {
+      "name": "python@3.13",
+      "full_name": "python@3.13",
+      "installed_on_request": null
+    },
+    {
+      "name": "python@3.14",
+      "full_name": "python@3.14",
+      "installed_on_request": null
+    },
+    {
+      "name": "python@3.15",
+      "full_name": "python@3.15",
+      "installed_on_request": null
+    },
+    {
+      "name": "qrencode",
+      "full_name": "qrencode",
+      "installed_on_request": null
+    },
+    {
+      "name": "rav1e",
+      "full_name": "rav1e",
+      "installed_on_request": null
+    },
+    {
+      "name": "readline",
+      "full_name": "readline",
+      "installed_on_request": null
+    },
+    {
+      "name": "ripgrep",
+      "full_name": "ripgrep",
+      "installed_on_request": null
+    },
+    {
+      "name": "rubberband",
+      "full_name": "rubberband",
+      "installed_on_request": null
+    },
+    {
+      "name": "ruby",
+      "full_name": "ruby",
+      "installed_on_request": null
+    },
+    {
+      "name": "sdl2-compat",
+      "full_name": "sdl2-compat",
+      "installed_on_request": null
+    },
+    {
+      "name": "sdl3",
+      "full_name": "sdl3",
+      "installed_on_request": null
+    },
+    {
+      "name": "simdjson",
+      "full_name": "simdjson",
+      "installed_on_request": null
+    },
+    {
+      "name": "simdutf",
+      "full_name": "simdutf",
+      "installed_on_request": null
+    },
+    {
+      "name": "snappy",
+      "full_name": "snappy",
+      "installed_on_request": null
+    },
+    {
+      "name": "speex",
+      "full_name": "speex",
+      "installed_on_request": null
+    },
+    {
+      "name": "sqlite",
+      "full_name": "sqlite",
+      "installed_on_request": null
+    },
+    {
+      "name": "srt",
+      "full_name": "srt",
+      "installed_on_request": null
+    },
+    {
+      "name": "svt-av1",
+      "full_name": "svt-av1",
+      "installed_on_request": null
+    },
+    {
+      "name": "tcl-tk",
+      "full_name": "tcl-tk",
+      "installed_on_request": null
+    },
+    {
+      "name": "tesseract",
+      "full_name": "tesseract",
+      "installed_on_request": null
+    },
+    {
+      "name": "theora",
+      "full_name": "theora",
+      "installed_on_request": null
+    },
+    {
+      "name": "tmux",
+      "full_name": "tmux",
+      "installed_on_request": null
+    },
+    {
+      "name": "tree-sitter",
+      "full_name": "tree-sitter",
+      "installed_on_request": null
+    },
+    {
+      "name": "unbound",
+      "full_name": "unbound",
+      "installed_on_request": null
+    },
+    {
+      "name": "unibilium",
+      "full_name": "unibilium",
+      "installed_on_request": null
+    },
+    {
+      "name": "utf8proc",
+      "full_name": "utf8proc",
+      "installed_on_request": null
+    },
+    {
+      "name": "uvwasi",
+      "full_name": "uvwasi",
+      "installed_on_request": null
+    },
+    {
+      "name": "webp",
+      "full_name": "webp",
+      "installed_on_request": null
+    },
+    {
+      "name": "x264",
+      "full_name": "x264",
+      "installed_on_request": null
+    },
+    {
+      "name": "x265",
+      "full_name": "x265",
+      "installed_on_request": null
+    },
+    {
+      "name": "xorgproto",
+      "full_name": "xorgproto",
+      "installed_on_request": null
+    },
+    {
+      "name": "xvid",
+      "full_name": "xvid",
+      "installed_on_request": null
+    },
+    {
+      "name": "xz",
+      "full_name": "xz",
+      "installed_on_request": null
+    },
+    {
+      "name": "yt-dlp",
+      "full_name": "yt-dlp",
+      "installed_on_request": null
+    },
+    {
+      "name": "zeromq",
+      "full_name": "zeromq",
+      "installed_on_request": null
+    },
+    {
+      "name": "zimg",
+      "full_name": "zimg",
+      "installed_on_request": null
+    },
+    {
+      "name": "zlib",
+      "full_name": "zlib",
+      "installed_on_request": null
+    },
+    {
+      "name": "zlib-ng-compat",
+      "full_name": "zlib-ng-compat",
+      "installed_on_request": null
+    },
+    {
+      "name": "zoxide",
+      "full_name": "zoxide",
+      "installed_on_request": null
+    },
+    {
+      "name": "zstd",
+      "full_name": "zstd",
+      "installed_on_request": null
+    }
+  ],
+  "homebrew_casks": [
+    {
+      "token": "aerospace",
+      "name": [],
+      "version": "0.19.2-Beta"
+    },
+    {
+      "token": "amethyst",
+      "name": [
+        "Amethyst"
+      ],
+      "version": "0.24.3"
+    },
+    {
+      "token": "claude",
+      "name": [
+        "Claude"
+      ],
+      "version": "4.23118.0,8175c354eda704cea00fdeddfa69cea329dd321a"
+    },
+    {
+      "token": "claude-code",
+      "name": [
+        "Claude Code"
+      ],
+      "version": "2.1.311"
+    },
+    {
+      "token": "codex",
+      "name": [
+        "Codex"
+      ],
+      "version": "0.166.0"
+    },
+    {
+      "token": "deskpad",
+      "name": [
+        "DeskPad"
+      ],
+      "version": "1.3.2"
+    },
+    {
+      "token": "font-jetbrains-mono-nerd-font",
+      "name": [
+        "JetBrainsMono Nerd Font families (JetBrains Mono)"
+      ],
+      "version": "3.5.1"
+    },
+    {
+      "token": "ghostty",
+      "name": [
+        "Ghostty"
+      ],
+      "version": "1.4.0"
+    },
+    {
+      "token": "karabiner-elements",
+      "name": [
+        "Karabiner Elements"
+      ],
+      "version": "16.3.0"
+    },
+    {
+      "token": "stats",
+      "name": [
+        "Stats"
+      ],
+      "version": "3.0.25"
+    },
+    {
+      "token": "xquartz",
+      "name": [
+        "XQuartz"
+      ],
+      "version": "2.8.6"
+    }
+  ],
+  "homebrew_leaves": [
+    "aom",
+    "aribb24",
+    "btop",
+    "bun",
+    "cask",
+    "cloudflared",
+    "cocoapods",
+    "duti",
+    "fd",
+    "ffmpeg",
+    "frei0r",
+    "fzf",
+    "gh",
+    "git",
+    "jpeg-xl",
+    "lazygit",
+    "libass",
+    "libbluray",
+    "librist",
+    "libsoxr",
+    "libssh",
+    "libusb",
+    "libvidstab",
+    "mbedtls",
+    "mysql",
+    "neovim",
+    "node",
+    "node@18",
+    "node@20",
+    "numpy",
+    "nvm",
+    "opencore-amr",
+    "pandoc",
+    "protobuf@29",
+    "pyenv",
+    "python-tk@3.13",
+    "python@3.10",
+    "python@3.12",
+    "python@3.14",
+    "qrencode",
+    "rav1e",
+    "ripgrep",
+    "rubberband",
+    "snappy",
+    "speex",
+    "srt",
+    "tesseract",
+    "theora",
+    "tmux",
+    "xvid",
+    "yt-dlp",
+    "zeromq",
+    "zimg",
+    "zlib",
+    "zoxide"
+  ],
+  "global_npm_packages": {
+    "@capacitor/assets": "3.0.5",
+    "@expo/ngrok": "4.1.3",
+    "@ionic/cli": "7.2.0",
+    "electron-forge": "5.2.4",
+    "npm": "11.20.0",
+    "typescript": "5.9.3"
+  },
+  "config_candidates": [
+    ".zshrc",
+    ".zprofile",
+    ".bash_profile",
+    ".profile",
+    ".gitconfig",
+    ".tmux.conf",
+    ".simplebarrc",
+    ".config/git",
+    ".config/aerospace",
+    ".config/ghostty",
+    ".config/karabiner",
+    ".config/nvim",
+    ".config/raycast",
+    ".config/btop",
+    ".config/iterm2",
+    ".config/mac-dev-setup",
+    ".agents/skills",
+    ".codex/skills",
+    ".claude/skills",
+    "Library/Application Support/Code/User/settings.json",
+    "Library/Application Support/Code/User/snippets"
+  ],
+  "config_directory_names": [
+    "Autodesk",
+    "Dadroit",
+    "aerospace",
+    "btop",
+    "com.corsair",
+    "configstore",
+    "ghostty",
+    "git",
+    "iterm2",
+    "karabiner",
+    "mac-dev-setup",
+    "mole",
+    "neonctl",
+    "nvim",
+    "raycast",
+    "retroarch",
+    "vercel-sbl"
+  ],
+  "vscode_extensions": [
+    {
+      "id": "Dadroit.dadroit-json-generator",
+      "version": "1.2.2"
+    },
+    {
+      "id": "GitHub.vscode-pull-request-github",
+      "version": "0.130.0"
+    },
+    {
+      "id": "GitHub.vscode-pull-request-github",
+      "version": "0.132.0"
+    },
+    {
+      "id": "GitHub.vscode-pull-request-github",
+      "version": "0.128.0"
+    },
+    {
+      "id": "Ionic.ionic",
+      "version": "1.104.0"
+    },
+    {
+      "id": "docker.docker",
+      "version": "0.18.0"
+    },
+    {
+      "id": "esbenp.prettier-vscode",
+      "version": "12.3.0"
+    },
+    {
+      "id": "llvm-vs-code-extensions.lldb-dap",
+      "version": "0.4.1"
+    },
+    {
+      "id": "ms-azuretools.vscode-containers",
+      "version": "2.4.1"
+    },
+    {
+      "id": "ms-azuretools.vscode-docker",
+      "version": "2.0.0"
+    },
+    {
+      "id": "ms-python.debugpy",
+      "version": "2025.18.0"
+    },
+    {
+      "id": "ms-python.python",
+      "version": "2026.4.0"
+    },
+    {
+      "id": "ms-python.vscode-pylance",
+      "version": "2026.1.1"
+    },
+    {
+      "id": "ms-python.vscode-python-envs",
+      "version": "1.22.0"
+    },
+    {
+      "id": "ms-python.vscode-python-envs",
+      "version": "1.20.1"
+    },
+    {
+      "id": "ms-vscode-remote.remote-containers",
+      "version": "0.447.0"
+    },
+    {
+      "id": "ritwickdey.LiveServer",
+      "version": "5.7.10"
+    },
+    {
+      "id": "swiftlang.swift-vscode",
+      "version": "2.16.1"
+    }
+  ],
+  "user_fonts": [
+    "AtlantaCollegeRegular-1Gva2.ttf",
+    "Fontspring-DEMO-juana-black.otf",
+    "Fontspring-DEMO-juana-blackit.otf",
+    "Fontspring-DEMO-juana-bold.otf",
+    "Fontspring-DEMO-juana-boldit.otf",
+    "Fontspring-DEMO-juana-extralight.otf",
+    "Fontspring-DEMO-juana-extralightit.otf",
+    "Fontspring-DEMO-juana-light.otf",
+    "Fontspring-DEMO-juana-lightit.otf",
+    "Fontspring-DEMO-juana-medium.otf",
+    "Fontspring-DEMO-juana-mediumit.otf",
+    "Fontspring-DEMO-juana-regular.otf",
+    "Fontspring-DEMO-juana-regularit.otf",
+    "Fontspring-DEMO-juana-semibold.otf",
+    "Fontspring-DEMO-juana-semiboldit.otf",
+    "Fontspring-DEMO-juana-thin.otf",
+    "Fontspring-DEMO-juana-thinit.otf",
+    "Fontspring-DEMO-juanaalt-black.otf",
+    "Fontspring-DEMO-juanaalt-bold.otf",
+    "Fontspring-DEMO-juanaalt-extralight.otf",
+    "Fontspring-DEMO-juanaalt-light.otf",
+    "Fontspring-DEMO-juanaalt-medium.otf",
+    "Fontspring-DEMO-juanaalt-regular.otf",
+    "Fontspring-DEMO-juanaalt-semibold.otf",
+    "Fontspring-DEMO-juanaalt-thin.otf",
+    "JetBrainsMonoNLNerdFont-Bold.ttf",
+    "JetBrainsMonoNLNerdFont-BoldItalic.ttf",
+    "JetBrainsMonoNLNerdFont-ExtraBold.ttf",
+    "JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf",
+    "JetBrainsMonoNLNerdFont-ExtraLight.ttf",
+    "JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf",
+    "JetBrainsMonoNLNerdFont-Italic.ttf",
+    "JetBrainsMonoNLNerdFont-Light.ttf",
+    "JetBrainsMonoNLNerdFont-LightItalic.ttf",
+    "JetBrainsMonoNLNerdFont-Medium.ttf",
+    "JetBrainsMonoNLNerdFont-MediumItalic.ttf",
+    "JetBrainsMonoNLNerdFont-Regular.ttf",
+    "JetBrainsMonoNLNerdFont-SemiBold.ttf",
+    "JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf",
+    "JetBrainsMonoNLNerdFont-Thin.ttf",
+    "JetBrainsMonoNLNerdFont-ThinItalic.ttf",
+    "JetBrainsMonoNLNerdFontMono-Bold.ttf",
+    "JetBrainsMonoNLNerdFontMono-BoldItalic.ttf",
+    "JetBrainsMonoNLNerdFontMono-ExtraBold.ttf",
+    "JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf",
+    "JetBrainsMonoNLNerdFontMono-ExtraLight.ttf",
+    "JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf",
+    "JetBrainsMonoNLNerdFontMono-Italic.ttf",
+    "JetBrainsMonoNLNerdFontMono-Light.ttf",
+    "JetBrainsMonoNLNerdFontMono-LightItalic.ttf",
+    "JetBrainsMonoNLNerdFontMono-Medium.ttf",
+    "JetBrainsMonoNLNerdFontMono-MediumItalic.ttf",
+    "JetBrainsMonoNLNerdFontMono-Regular.ttf",
+    "JetBrainsMonoNLNerdFontMono-SemiBold.ttf",
+    "JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf",
+    "JetBrainsMonoNLNerdFontMono-Thin.ttf",
+    "JetBrainsMonoNLNerdFontMono-ThinItalic.ttf",
+    "JetBrainsMonoNLNerdFontPropo-Bold.ttf",
+    "JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf",
+    "JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf",
+    "JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf",
+    "JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf",
+    "JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf",
+    "JetBrainsMonoNLNerdFontPropo-Italic.ttf",
+    "JetBrainsMonoNLNerdFontPropo-Light.ttf",
+    "JetBrainsMonoNLNerdFontPropo-LightItalic.ttf",
+    "JetBrainsMonoNLNerdFontPropo-Medium.ttf",
+    "JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf",
+    "JetBrainsMonoNLNerdFontPropo-Regular.ttf",
+    "JetBrainsMonoNLNerdFontPropo-SemiBold.ttf",
+    "JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf",
+    "JetBrainsMonoNLNerdFontPropo-Thin.ttf",
+    "JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf",
+    "JetBrainsMonoNerdFont-Bold.ttf",
+    "JetBrainsMonoNerdFont-BoldItalic.ttf",
+    "JetBrainsMonoNerdFont-ExtraBold.ttf",
+    "JetBrainsMonoNerdFont-ExtraBoldItalic.ttf",
+    "JetBrainsMonoNerdFont-ExtraLight.ttf",
+    "JetBrainsMonoNerdFont-ExtraLightItalic.ttf",
+    "JetBrainsMonoNerdFont-Italic.ttf",
+    "JetBrainsMonoNerdFont-Light.ttf",
+    "JetBrainsMonoNerdFont-LightItalic.ttf",
+    "JetBrainsMonoNerdFont-Medium.ttf",
+    "JetBrainsMonoNerdFont-MediumItalic.ttf",
+    "JetBrainsMonoNerdFont-Regular.ttf",
+    "JetBrainsMonoNerdFont-SemiBold.ttf",
+    "JetBrainsMonoNerdFont-SemiBoldItalic.ttf",
+    "JetBrainsMonoNerdFont-Thin.ttf",
+    "JetBrainsMonoNerdFont-ThinItalic.ttf",
+    "JetBrainsMonoNerdFontMono-Bold.ttf",
+    "JetBrainsMonoNerdFontMono-BoldItalic.ttf",
+    "JetBrainsMonoNerdFontMono-ExtraBold.ttf",
+    "JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf",
+    "JetBrainsMonoNerdFontMono-ExtraLight.ttf",
+    "JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf",
+    "JetBrainsMonoNerdFontMono-Italic.ttf",
+    "JetBrainsMonoNerdFontMono-Light.ttf",
+    "JetBrainsMonoNerdFontMono-LightItalic.ttf",
+    "JetBrainsMonoNerdFontMono-Medium.ttf",
+    "JetBrainsMonoNerdFontMono-MediumItalic.ttf",
+    "JetBrainsMonoNerdFontMono-Regular.ttf",
+    "JetBrainsMonoNerdFontMono-SemiBold.ttf",
+    "JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf",
+    "JetBrainsMonoNerdFontMono-Thin.ttf",
+    "JetBrainsMonoNerdFontMono-ThinItalic.ttf",
+    "JetBrainsMonoNerdFontPropo-Bold.ttf",
+    "JetBrainsMonoNerdFontPropo-BoldItalic.ttf",
+    "JetBrainsMonoNerdFontPropo-ExtraBold.ttf",
+    "JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf",
+    "JetBrainsMonoNerdFontPropo-ExtraLight.ttf",
+    "JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf",
+    "JetBrainsMonoNerdFontPropo-Italic.ttf",
+    "JetBrainsMonoNerdFontPropo-Light.ttf",
+    "JetBrainsMonoNerdFontPropo-LightItalic.ttf",
+    "JetBrainsMonoNerdFontPropo-Medium.ttf",
+    "JetBrainsMonoNerdFontPropo-MediumItalic.ttf",
+    "JetBrainsMonoNerdFontPropo-Regular.ttf",
+    "JetBrainsMonoNerdFontPropo-SemiBold.ttf",
+    "JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf",
+    "JetBrainsMonoNerdFontPropo-Thin.ttf",
+    "JetBrainsMonoNerdFontPropo-ThinItalic.ttf",
+    "NT Mikella (DEMO).otf"
+  ],
+  "user_launch_agents": [
+    "com.adobe.ccxprocess.plist",
+    "com.elgato.StreamDeck.plist",
+    "com.logos.desktop.logosindexer.plist",
+    "com.valvesoftware.steamclean.plist",
+    "local.devagent.server.plist"
+  ],
+  "runtime_managers_present": [
+    ".nvm",
+    ".pyenv",
+    ".rustup",
+    ".cargo",
+    ".bun",
+    ".gem",
+    ".cocoapods"
+  ],
+  "xcode_developer_directory": "/Applications/Xcode.app/Contents/Developer",
+  "macos_preferences": {
+    "NSGlobalDomain.AppleInterfaceStyle": "Dark",
+    "NSGlobalDomain.AppleShowAllExtensions": "1",
+    "NSGlobalDomain.KeyRepeat": "unset / default",
+    "NSGlobalDomain.InitialKeyRepeat": "unset / default",
+    "com.apple.dock.autohide": "1",
+    "com.apple.dock.orientation": "bottom",
+    "com.apple.dock.tilesize": "27",
+    "com.apple.finder.AppleShowAllFiles": "unset / default",
+    "com.apple.finder.ShowPathbar": "1",
+    "com.apple.finder.ShowStatusBar": "unset / default"
+  },
+  "scope": "Installation metadata and allowlisted preference values only. No credentials, config contents, browser profiles, personal documents, histories, or system-wide exhaustive inventory."
+}
