@@ -8,7 +8,6 @@ These selections are preserved even though they are absent from the automatic Br
 - [ ] **Grok Bot** — Original bundle ID is com.anysphere.sand. The name alone is ambiguous; confirm the original source with the owner. Do not substitute a similarly named app.
 - [ ] **Isocast** — Original app: dev.isocast.release. Obtain the original developer installer.
 - [ ] **Magnet** — Original app: com.crowdcafe.windowmagnet. Restore through Mac App Store purchase history.
-- [ ] **Notchy** — Original app: dev.notchy.app. Official installation help: https://notchy.dev/help/install-notchy/
 - [ ] **UGREEN NAS** — Original app: com.ugreen.pro.client. Obtain the Mac client from the official UGREEN NAS support/download site and sign in again.
 
 ## Setup tasks

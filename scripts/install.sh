@@ -3,8 +3,19 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 if ! command -v brew >/dev/null 2>&1; then
-  echo 'Homebrew is required. Install it using https://brew.sh, then rerun this script.'
+  echo 'Homebrew is required. Use the one-command bootstrap in README.md.' >&2
   exit 1
 fi
-brew bundle --file="$ROOT/Brewfile.selected"
-echo 'Homebrew selections installed. Continue with MANUAL-INSTALL.md.'
+STATUS=0
+# Do not upgrade already-installed packages or remove unrelated software.
+if ! brew bundle --no-upgrade --file="$ROOT/Brewfile.selected"; then
+  STATUS=1
+  echo 'Some automatic installs failed. Review the errors above, then rerun to retry.' >&2
+fi
+printf '\nRemaining manual apps and account setup:\n\n'
+cat "$ROOT/MANUAL-INSTALL.md"
+printf '\nSaved instructions: %s/MANUAL-INSTALL.md\n' "$ROOT"
+if [[ "$STATUS" -eq 0 ]]; then
+  echo 'Automatic installs finished. Manual apps and account setup above still need attention.'
+fi
+exit "$STATUS"

@@ -4,15 +4,29 @@ A local repository for choosing and documenting a repeatable Mac setup.
 
 Your checked choices in [CHECKLIST.md](CHECKLIST.md) are prepared for installation. The full original inventory remains for reference; unchecked software is excluded from the install plan.
 
-## Use on a new Mac
+## One command on a new Mac
 
-Tell your coding assistant:
+Open Terminal and paste:
 
-> Set up this Mac using this repository. Read AGENTS.md and install my selected software. Complete the Homebrew installs, help with each manual app, and report anything that still requires my sign-in, license, or a confirmed download source. Do not install unchecked inventory items.
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ManTreeJoe/mac-clone/master/bootstrap.sh)"
+```
 
-Clone the repository on the new Mac, then point the assistant at that checkout. A private GitHub repository requires signing in first.
+The bootstrap downloads this public repo, installs Homebrew and required Apple command-line tools if missing, and installs your selected Homebrew apps and Git tools. It adds Homebrew to `~/.zprofile` without replacing your existing settings. It saves each setup snapshot under `~/Library/Application Support/mac-clone/` and prints the remaining manual tasks. Run as your normal account; respond to macOS password, installer, and permission prompts when requested.
 
-`Brewfile.selected` installs the verified Homebrew selections with `bash scripts/install.sh`. `MANUAL-INSTALL.md` preserves every selected app that needs a separate installer or App Store purchase. The repository contains manifests and instructions, not app binaries or licenses. Package versions are resolved at installation time.
+You can rerun the same command after a failure. Already installed Homebrew packages are retained without upgrading them, and unrelated apps are not removed. An existing app installed outside Homebrew can require manual resolution if Homebrew reports a conflict.
+
+### What still needs you
+
+This command installs the automated selections, including Notchy through the developer’s documented Homebrew tap. Seven selected apps still need a verified installer or purchase history: Ardia, ArtCraft Launcher, Card Hopper, Grok Bot, Isocast, Magnet, and UGREEN NAS. See [MANUAL-INSTALL.md](MANUAL-INSTALL.md). Those are not reported as automatically installed.
+
+Account sign-ins, purchased licenses, permissions, browser sync, backups, and FileVault still require your involvement. Shell preferences, font, and editor were selected as broad goals, but no specific settings files, font, editor, or extensions were individually chosen. No app binaries, private settings, or credentials are in this repo.
+
+The `codex` selection installs the Codex CLI, not the desktop app. Versions are resolved at installation time.
+
+If using a coding assistant, give it this repo URL and ask it to read `AGENTS.md`, run the bootstrap, and help complete every remaining manual step.
+
+Sources: [Homebrew installation](https://brew.sh/), [Notchy developer’s Homebrew instructions](https://notchy.dev/help/install-with-homebrew/).
 
 ## Updating your choices
 
@@ -28,6 +42,7 @@ Edit the checkboxes in `CHECKLIST.md`, run `python3 scripts/prepare.py`, review 
 - `inventory/machine.json`: original software and settings-location inventory.
 - `inventory/install-sources.json`: checked Homebrew cask metadata from https://formulae.brew.sh/api/.
 - `scripts/prepare.py`: regenerate the plan without installing.
+- `bootstrap.sh`: fresh-Mac entry point; installs prerequisites and runs the installer.
 - `scripts/install.sh`: install selected Homebrew packages.
 - `scripts/scan.py`: refresh installation metadata without changing your checklist.
 
@@ -41,4 +56,4 @@ python3 scripts/scan.py
 
 The scanner uses local installation metadata. It does not open personal documents, shell histories, browser profiles, config contents, SSH files, or credential stores. Some app names and extension names can still be private; inspect the repo before publishing it. Missing commands or unreadable locations may be omitted. This is not a complete backup, a system security audit, or an exhaustive inventory of Apple system apps, nested runtimes, Python/Ruby packages, browser extensions, app plugins, and system extensions.
 
-The GitHub remote, once configured, is shown by `git remote -v`. Keep this repository private unless you deliberately choose otherwise.
+This repository is public by the owner’s choice. Do not commit credentials or private configuration contents.

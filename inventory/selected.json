@@ -124,7 +124,8 @@
     "parsec",
     "presentify",
     "raycast",
-    "tailscale-app"
+    "tailscale-app",
+    "vishvavariya/notchy/notchy"
   ],
   "manual_apps": [
     "Ardia",
@@ -133,7 +134,6 @@
     "Grok Bot",
     "Isocast",
     "Magnet",
-    "Notchy",
     "UGREEN NAS"
   ]
 }

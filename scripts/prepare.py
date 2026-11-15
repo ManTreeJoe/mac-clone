@@ -10,7 +10,7 @@ for line in text.splitlines():
     if line.startswith('## '): section=line[3:]
     if line.startswith('- [x] '): selected.append({'section':section,'item':line[6:]})
 # Only mappings verified against Homebrew metadata. Unknown apps stay explicit.
-app_casks={'Blip':'blip','ChatGPT':'chatgpt','CleanShot X':'cleanshot','DisplayLink Manager':'displaylink','Ghostty':'ghostty','Jump Desktop':'jump-desktop','Parsec':'parsec','Presentify':'presentify','Raycast':'raycast','Tailscale':'tailscale-app'}
+app_casks={'Blip':'blip','ChatGPT':'chatgpt','CleanShot X':'cleanshot','DisplayLink Manager':'displaylink','Ghostty':'ghostty','Jump Desktop':'jump-desktop','Parsec':'parsec','Presentify':'presentify','Raycast':'raycast','Tailscale':'tailscale-app','Notchy':'vishvavariya/notchy/notchy'}
 formulas=set(); casks=set(); manual=[]
 for s in selected:
     item=s['item']; section=s['section']
