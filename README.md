@@ -12,21 +12,27 @@ Open Terminal and paste:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ManTreeJoe/mac-clone/master/bootstrap.sh)"
 ```
 
-The bootstrap downloads this public repo, installs Homebrew and required Apple command-line tools if missing, and installs your selected Homebrew apps and Git tools. It adds Homebrew to `~/.zprofile` without replacing your existing settings. It saves each setup snapshot under `~/Library/Application Support/mac-clone/` and prints the remaining manual tasks. Run as your normal account; respond to macOS password, installer, and permission prompts when requested.
+The bootstrap downloads this public repo, installs Homebrew and required Apple command-line tools if missing, and installs your selected Homebrew apps, Git tools, direct developer downloads, and Magnet through the Mac App Store. It adds Homebrew to `~/.zprofile` without replacing your existing settings. It saves each setup snapshot under `~/Library/Application Support/mac-clone/` and prints the remaining manual tasks. Run as your normal account; respond to macOS password, installer, and permission prompts when requested.
 
 You can rerun the same command after a failure. Already installed Homebrew packages are retained without upgrading them, and unrelated apps are not removed. An existing app installed outside Homebrew can require manual resolution if Homebrew reports a conflict.
 
+### All selected apps are included
+
+The installer covers all 18 selected app bundles, plus the selected Codex CLI and Git tools. Ardia, ArtCraft Launcher, and Grok Bot use Homebrew. Card Hopper, Isocast, and UGREEN NAS use official, version-pinned downloads with SHA-256 and bundle-ID checks. Magnet uses the Mac App Store through `mas` (installed as a helper). See [SOURCES.md](SOURCES.md) for every source.
+
+This setup requires **Apple silicon and macOS 14 or later**. Card Hopper and Isocast currently publish Apple-silicon builds; the bootstrap refuses incompatible Macs before installing.
+
+**Before running, sign into the Mac App Store with the Apple Account that owns Magnet.** If you do not own it, purchase it in the App Store first. Setup attempts its installation but does not purchase paid apps. A missing purchase, sign-in, or failed download produces an error; rerun the same command once resolved.
+
 ### What still needs you
 
-This command installs the automated selections, including Notchy through the developer’s documented Homebrew tap. Seven selected apps still need a verified installer or purchase history: Ardia, ArtCraft Launcher, Card Hopper, Grok Bot, Isocast, Magnet, and UGREEN NAS. See [MANUAL-INSTALL.md](MANUAL-INSTALL.md). Those are not reported as automatically installed.
+Respond to admin and installer prompts. Complete app sign-ins, license activation, first-launch permissions, browser sync, backups, and FileVault. Isocast can request a codec download on first launch. The script lists these tasks at the end.
 
-Account sign-ins, purchased licenses, permissions, browser sync, backups, and FileVault still require your involvement. Shell preferences, font, and editor were selected as broad goals, but no specific settings files, font, editor, or extensions were individually chosen. No app binaries, private settings, or credentials are in this repo.
+Specific shell settings, fonts, editor apps, and extensions were not individually selected and are not added. No app binaries, private settings, or credentials are stored here. `codex` installs the CLI, not the desktop app.
 
-The `codex` selection installs the Codex CLI, not the desktop app. Versions are resolved at installation time.
+Homebrew resolves current package versions. Direct downloads are pinned in `manifests/direct-apps.json`; changing their versions requires checking the official release, checksum, app layout, and bundle ID again. UGREEN's pinned official API record supplies a fresh expiring CDN link on each run. Existing direct-installed apps with the expected bundle ID are kept unchanged. Unavailable releases or mismatched downloads stop that app and produce a failure rather than silently substituting another source.
 
-If using a coding assistant, give it this repo URL and ask it to read `AGENTS.md`, run the bootstrap, and help complete every remaining manual step.
-
-Sources: [Homebrew installation](https://brew.sh/), [Notchy developer’s Homebrew instructions](https://notchy.dev/help/install-with-homebrew/).
+If using a coding assistant, give it this repo URL and ask it to read `AGENTS.md`, run the bootstrap, and help complete account and first-launch steps.
 
 ## Updating your choices
 
@@ -36,14 +42,18 @@ Edit the checkboxes in `CHECKLIST.md`, run `python3 scripts/prepare.py`, review 
 
 - `CHECKLIST.md`: your choices.
 - `Brewfile.selected`: selected automated installs.
-- `MANUAL-INSTALL.md`: selected apps and setup tasks requiring extra steps.
+- `MANUAL-INSTALL.md`: account and first-launch tasks.
+- `SOURCES.md`: official downloads and installation routes.
+- `manifests/direct-apps.json`: pinned developer releases.
+- `manifests/direct-selected.tsv`: generated direct-download selections.
 - `AGENTS.md`: instructions for the assistant setting up the next Mac.
 - `inventory/selected.json`: machine-readable choices.
 - `inventory/machine.json`: original software and settings-location inventory.
 - `inventory/install-sources.json`: checked Homebrew cask metadata from https://formulae.brew.sh/api/.
 - `scripts/prepare.py`: regenerate the plan without installing.
 - `bootstrap.sh`: fresh-Mac entry point; installs prerequisites and runs the installer.
-- `scripts/install.sh`: install selected Homebrew packages.
+- `scripts/install.sh`: run Homebrew, Mac App Store, and direct installs.
+- `scripts/install-direct.sh`: verify and install direct developer downloads.
 - `scripts/scan.py`: refresh installation metadata without changing your checklist.
 
 ## Refresh inventory

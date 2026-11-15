@@ -12,10 +12,13 @@ if ! brew bundle --no-upgrade --file="$ROOT/Brewfile.selected"; then
   STATUS=1
   echo 'Some automatic installs failed. Review the errors above, then rerun to retry.' >&2
 fi
-printf '\nRemaining manual apps and account setup:\n\n'
+if ! /bin/bash "$ROOT/scripts/install-direct.sh"; then
+  STATUS=1
+fi
+printf '\nAccount and first-launch setup:\n\n'
 cat "$ROOT/MANUAL-INSTALL.md"
 printf '\nSaved instructions: %s/MANUAL-INSTALL.md\n' "$ROOT"
 if [[ "$STATUS" -eq 0 ]]; then
-  echo 'Automatic installs finished. Manual apps and account setup above still need attention.'
+  echo 'All selected app installation steps finished. Complete the account and first-launch tasks above.'
 fi
 exit "$STATUS"

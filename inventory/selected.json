@@ -111,15 +111,19 @@
   ],
   "formulae": [
     "gh",
-    "git"
+    "git",
+    "mas"
   ],
   "casks": [
+    "ardia",
+    "artcraft-launcher",
     "blip",
     "chatgpt",
     "cleanshot",
     "codex",
     "displaylink",
     "ghostty",
+    "grok-bot",
     "jump-desktop",
     "parsec",
     "presentify",
@@ -127,13 +131,13 @@
     "tailscale-app",
     "vishvavariya/notchy/notchy"
   ],
-  "manual_apps": [
-    "Ardia",
-    "ArtCraft Launcher",
+  "direct_apps": [
     "Card Hopper",
-    "Grok Bot",
     "Isocast",
-    "Magnet",
     "UGREEN NAS"
-  ]
+  ],
+  "mac_app_store": {
+    "Magnet": 441258766
+  },
+  "manual_apps": []
 }

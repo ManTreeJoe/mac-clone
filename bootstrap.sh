@@ -9,6 +9,11 @@ if [[ "$EUID" -eq 0 ]]; then
   echo 'Run as your normal Mac account, without sudo.' >&2
   exit 1
 fi
+# The selected Ardia, Card Hopper, and Isocast builds require Apple silicon.
+if [[ "$(uname -m)" != arm64 || "$(sw_vers -productVersion | cut -d. -f1)" -lt 14 ]]; then
+  echo 'This selected setup requires Apple silicon and macOS 14 or later.' >&2
+  exit 1
+fi
 WORK="$(mktemp -d "${TMPDIR:-/tmp}/mac-clone.XXXXXX")"
 trap 'rm -rf "$WORK"' EXIT
 trap 'exit 130' INT

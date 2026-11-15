@@ -1,21 +1,19 @@
-# Selected applications requiring manual installation
+# Account and first-launch setup
 
-These selections are preserved even though they are absent from the automatic Brewfile. Confirm official sources and required licenses before installing.
+All currently selected apps have an installation route. The command reports failures and can be rerun.
 
-- [ ] **Ardia** — Original app: com.ardia.browser. Confirm the official installer with the owner; do not substitute another browser.
-- [ ] **ArtCraft Launcher** — Original app: ai.storyteller.artcraft-launcher. Confirm the official Storyteller/ArtCraft source; similarly named projects exist.
-- [ ] **Card Hopper** — Original app: com.cardhopper.app. Obtain from the original developer or purchase history.
-- [ ] **Grok Bot** — Original bundle ID is com.anysphere.sand. The name alone is ambiguous; confirm the original source with the owner. Do not substitute a similarly named app.
-- [ ] **Isocast** — Original app: dev.isocast.release. Obtain the original developer installer.
-- [ ] **Magnet** — Original app: com.crowdcafe.windowmagnet. Restore through Mac App Store purchase history.
-- [ ] **UGREEN NAS** — Original app: com.ugreen.pro.client. Obtain the Mac client from the official UGREEN NAS support/download site and sign in again.
+## Steps requiring your involvement
 
-## Setup tasks
+- Sign into the Mac App Store with the Apple Account that owns Magnet before running setup. If not owned, purchase Magnet in the App Store first. The installer does not buy it.
+- Approve macOS installer/password prompts and first-launch permissions, including DisplayLink and Accessibility access as needed.
+- Sign into GitHub and your apps; activate purchased licenses.
+- Finish browser bookmarks, Keychain, and iCloud sync.
+- Configure and verify backups and FileVault.
+- Isocast may request its codec download on first launch.
+- Shell preferences, font, and editor were selected as broad goals; no specific settings files, font, editor app, or extensions were individually selected.
+- The selected `codex` cask is the CLI, not the desktop app.
+- No settings contents, licenses, passwords, or private files are included.
 
-- Install Xcode command-line tools if absent (`xcode-select --install`). Full Xcode was not selected.
-- Sign in to GitHub, purchased apps, Tailscale, NAS, and other accounts as needed.
-- Browser bookmarks and Keychain/iCloud sync require the owner’s account.
-- Configure and verify backups and FileVault with the owner.
-- Shell preferences, font, and editor were selected as general goals, but no specific configuration files, font, editor app, or extensions were checked. Ask for those choices before adding them.
-- The selected `codex` cask is the Codex CLI. It is not the Codex desktop app.
-- No settings contents, licenses, passwords, app binaries, or private files are included.
+## Download sources
+
+See [SOURCES.md](SOURCES.md) for the verified official sources.

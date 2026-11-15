@@ -1,0 +1,4 @@
+# name	bundle	version	type	url	sha256	arch
+Card Hopper	com.cardhopper.app	1.3.4	zip	https://github.com/ManTreeJoe/cardHopper/releases/download/v1.3.4/Card.Hopper-1.3.4-arm64-mac.zip	5019eb15e8ef0c739661865d04a5476c195c4e29c36cc5d8e2ccbaec757fdd30	arm64
+Isocast	dev.isocast.release	0.0.10	dmg	https://github.com/anomalyco/isocast/releases/download/v0.0.10/Isocast-0.0.10-arm64.dmg	300b4649bbdf98be2c7c9a85f3dcf6b92c02e94c5996d1db11c2587caa368402	arm64
+UGREEN NAS	com.ugreen.pro.client	1.21.0.80330	ugreen-dmg	https://api-us.ugnas.com/api/system/v1/ua/temp/link?appType=client&id=423	60892cf81716e6409aabe9a682451c275af4fd142b1670bf932c0691d663c393	arm64

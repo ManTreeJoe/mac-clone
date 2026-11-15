@@ -90,5 +90,29 @@
   "magnet": null,
   "notchy": null,
   "ugreen": null,
-  "isocast": null
+  "isocast": null,
+  "ardia": {
+    "token": "ardia",
+    "name": [
+      "Ardia"
+    ],
+    "homepage": "https://ardia.dev/",
+    "version": "0.2.46"
+  },
+  "artcraft-launcher": {
+    "token": "artcraft-launcher",
+    "name": [
+      "ArtCraft Launcher"
+    ],
+    "homepage": "https://github.com/storytold/craft-launcher",
+    "version": "0.19.2"
+  },
+  "grok-bot": {
+    "token": "grok-bot",
+    "name": [
+      "Grok Bot"
+    ],
+    "homepage": "https://x.ai/bot",
+    "version": "1.1.0"
+  }
 }
